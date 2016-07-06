@@ -1,0 +1,33 @@
+{
+  "name": "charity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-eslint": "^6.1.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-angular": "^6.0.15",
+    "babel-preset-es2015": "^6.9.0",
+    "copy-webpack-plugin": "^3.0.1",
+    "css-loader": "^0.23.1",
+    "eslint": "^3.0.0",
+    "eslint-loader": "^1.4.0",
+    "eslint-plugin-angular": "^1.3.0",
+    "file-loader": "^0.9.0",
+    "html2js": "^0.2.0",
+    "http-server": "^0.9.0",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --colors --history-api-fallback --content-base src/"
+  },
+  "author": "Marieta Ilarionova <marieta_ilarionova@epam.com>",
+  "license": "ISC"
+}
