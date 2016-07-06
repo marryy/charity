@@ -1,0 +1,7 @@
+node_modules
+.git
+.idea
+.babelrc
+.eslintrc.yml
+/src/bundle.js
+/src/bundle.map

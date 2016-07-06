@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "@angular/router": "^0.2.0",
+    "angular": "^1.5.7",
+    "angular-resource": "^1.5.5"
+  },
   "devDependencies": {
     "babel-core": "^6.10.4",
     "babel-eslint": "^6.1.0",
