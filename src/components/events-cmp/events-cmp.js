@@ -1,19 +1,19 @@
 angular.module('charity').component('eventsCmp', {
-  templateUrl: 'components/events-cmp/events-cmp.html',
-  controller: eventsCmpController
+    templateUrl: 'components/events-cmp/events-cmp.html',
+    controller: eventsCmpController
 });
 
 function eventsCmpController(eventsService) {
-  let $ctrl = this;
+    let $ctrl = this;
 
-  $ctrl.$routerOnActivate = function() {
-    $ctrl.getEvents();
-  };
+    $ctrl.$routerOnActivate = function () {
+        $ctrl.getEvents();
+    };
 
-  $ctrl.getEvents = function() {
-    return eventsService.query(function(events) {
-      $ctrl.events = events;
-    });
-  }
+    $ctrl.getEvents = function () {
+        return eventsService.query(function (events) {
+            $ctrl.events = events;
+        });
+    }
 };
 

@@ -35,6 +35,9 @@ module.exports = {
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
-    new webpack.NoErrorsPlugin()
+    new webpack.NoErrorsPlugin(),
+    new CopyWebpack([
+      { from: './src/lib/less.js', to: 'js/less.js' }
+    ])
   ]
 }
